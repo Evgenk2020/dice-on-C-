@@ -32,6 +32,7 @@ void cube() {
     printf("%s", "Drop dice? <y/n> ");
     int ask = t_getchar();
     CRLF;
+    CRLF;
     int final = 0, temp;
 
     if (ask == 'y' || ask == 'Y')  {
